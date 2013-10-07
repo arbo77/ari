@@ -1,0 +1,64 @@
+@font-face{
+  font-family: 'FreightSans Light';
+  src: url('FreightSans Light.ttf'); /* IE9 */
+}
+
+body{
+  background: #1A1A1A;
+  color: #717171;
+  /*font: 10pt/1.3em 'FreightSans Light', 'Open Sans', 'PT Sans', Ubuntu, 'Segoe UI', arial, helvetica, sans-serif ; */
+  font-size: 12px;
+  line-height: 1.3em;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, Tahoma, sans-serif;
+}
+
+.banner{
+  width: 600px;
+  margin: 180px auto 0;
+  text-align: center;
+}
+
+.banner h1{
+  font-weight: 300;
+  color: #C95D16;
+}
+
+ul.links{
+  width: 108px;
+  margin: 80px auto 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+ul.links li{
+  float: left;
+  display: block;
+  width: 28px;
+  height: 28px;
+  margin: 4px;
+}
+
+ul.links li a img{
+  width: 28px;
+  height: 28px;
+  border: 0;
+  outline: 0;
+  border-radius: 50%;
+  -webkit-transition: opacity .5s ease-in-out;
+  -moz-transition: opacity .5s ease-in-out;
+  -ms-transition: opacity .5s ease-in-out;
+  -o-transition: opacity .5s ease-in-out;
+  transition: opacity .5s ease-in-out;
+  filter: alpha(opacity=30);
+  opacity: 0.3;
+}
+
+ul.links li a img:hover {
+  filter: alpha(opacity=80);
+  opacity: 0.8;
+  box-shadow: 0 0 24px #7D7D7D;
+}
+
+.clear{
+  clear: both;
+}
