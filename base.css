@@ -1,10 +1,9 @@
 ::selection {
-  background-color: transparent;
+  background-color: rgb(231, 75, 75);
 }
 
 body {
   display: flex;
-  /* flex-direction: column; */
   justify-content: center;
   align-items: center;
   min-height: 100vh;
@@ -15,11 +14,6 @@ body {
   font-size: 13px;
 }
 
-body>div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
 img.me {
   position: absolute;
@@ -29,21 +23,18 @@ img.me {
   height: auto;
 }
 
-
 .intro {
   font-weight: 700;
   font-size: calc(48px + 2vmin);
   line-height: 1;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 40px;
 }
 
-.intro div:nth-child(odd) {
-  margin-left: -14px;
+.intro div {
+  padding: 2px;
 }
-
-.intro div:nth-child(even) {
-  margin-left: 14px;
-}
-
 
 div.me {
   padding: 20px;
