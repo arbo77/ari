@@ -1,16 +1,33 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
 <head>
-  <title>Arbo77</title>
+  <title>I am Ari, but some people also call me Arbo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta http-equiv="content-type" content="text/html;charset=utf-8" />
   <meta name="author" content="@arbo77" />
-  <meta name="description" content="" />
-  <meta name="keywords" content="" />
+  <meta name="description" content="just an old school programmer who likes to explore new technology." />
+  <meta name="keywords" content="arbo77" />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Courier+Prime&display=swap" rel="stylesheet">
+  <link href="/base.css" rel="stylesheet">
 </head>
+
 <body>
-  <h1>It's not work!</h1>
+  <img class="me"
+    src="https://avatars0.githubusercontent.com/u/237354?s=260&u=ee3ba8aa7277169da01ce811aab40d95e0349260" />
+
+  <div class="me">I'm <strong>Ari</strong>, people also call me <strong>Arbo</strong></div>
+  <div class="intro">just an old dog feeding new born cat.</div>
+  <script>
+    (() => {
+      const intro = document.querySelector('.intro')
+      const words = intro.innerText;
+      intro.innerHTML = '';
+      words.split(' ').forEach(word => {
+        intro.innerHTML += `<div>${word}</div>`
+      });
+    })();
+  </script>
 </body>
-</html>
+
+</html
