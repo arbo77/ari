@@ -28,8 +28,10 @@ img.me {
   font-size: calc(48px + 2vmin);
   line-height: 1;
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   margin: 10px 40px;
+  color: #292f29;
 }
 
 .intro div {
