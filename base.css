@@ -4,13 +4,14 @@
 
 body {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   min-height: 100vh;
   margin: 0;
   padding: 0;
   font-family: 'Anton', sans-serif;
   color: #191a1b;
+  background: #0d0e0d;
   font-size: 13px;
 }
 
@@ -31,7 +32,7 @@ img.me {
   flex-direction: column;
   flex-wrap: wrap;
   margin: 10px 40px;
-  color: #292f29;
+  color: #505148;
 }
 
 .intro div {
