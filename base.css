@@ -4,17 +4,14 @@
 
 body {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   min-height: 100vh;
   margin: 0;
   padding: 0;
-  font-family: 'Anton', sans-serif;
-  color: #191a1b;
-  background: #0d0e0d;
+  font-family: "Anton", sans-serif;
   font-size: 13px;
 }
-
 
 img.me {
   position: absolute;
@@ -32,7 +29,7 @@ img.me {
   flex-direction: column;
   flex-wrap: wrap;
   margin: 10px 40px;
-  color: #505148;
+  max-width: 480px;
 }
 
 .intro div {
@@ -41,7 +38,7 @@ img.me {
 
 div.me {
   padding: 20px;
-  font-family: 'Courier Prime', monospace;
+  font-family: "Courier Prime", monospace;
   position: absolute;
   top: 20px;
   left: 20px;
@@ -50,12 +47,8 @@ div.me {
 
 div.me strong {
   font-size: 18px;
-  text-shadow:
-    1px 0px 1px #ccc, 0px 1px 1px #eee,
-    2px 1px 1px #ccc, 1px 2px 1px #eee,
-    3px 2px 1px #ccc, 2px 3px 1px #eee,
-    4px 3px 1px #ccc, 3px 4px 1px #eee,
-    5px 4px 1px #ccc, 4px 5px 1px #eee,
-    6px 5px 1px #ccc, 5px 6px 1px #eee,
-    7px 6px 1px #ccc;
+  text-shadow: 1px 0px 1px #ccc, 0px 1px 1px #eee, 2px 1px 1px #ccc,
+    1px 2px 1px #eee, 3px 2px 1px #ccc, 2px 3px 1px #eee, 4px 3px 1px #ccc,
+    3px 4px 1px #eee, 5px 4px 1px #ccc, 4px 5px 1px #eee, 6px 5px 1px #ccc,
+    5px 6px 1px #eee, 7px 6px 1px #ccc;
 }
