@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&display=swap");
+
+::selection {
+  background-color: rgb(175, 174, 174);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: "Dosis", sans-serif;
+  font-size: 13px;
+  background-image: url("./img/paper.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #433535;
+}
+
+.intro {
+  max-width: 80vw;
+}
+
+.intro h1 {
+  font-size: 24px;
+}
+
+.intro p {
+  font-size: 7vw;
+  line-height: 1.25;
+}
+
+.intro button {
+  display: none;
+  background-color: #433535;
+  color: #fff;
+  font: inherit;
+  font-size: 24px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
